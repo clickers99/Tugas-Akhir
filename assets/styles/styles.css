@@ -26,6 +26,8 @@ h4 {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
+  display: flex;
+  gap: 1.5rem;
 }
 
 footer {
@@ -106,8 +108,6 @@ nav {
 
 main {
   padding: 20px;
-  display: flex;
-  gap: 1.5rem;
 }
 
 #content {
@@ -149,11 +149,11 @@ header {
 }
 
 @media screen and (max-width: 1200px) {
-  main {
+  .container {
     flex-flow: column nowrap;
   }
 
-  main aside {
+  .container aside {
     align-self: center;
     width: 100%;
   }
@@ -167,12 +167,7 @@ header {
   nav ul {
     justify-content: center;
   }
-
-  main aside {
-    align-self: stretch;
-    width: 100%;
-  }
-
+  
   .container {
     max-width: 100%;
     padding: 0;
