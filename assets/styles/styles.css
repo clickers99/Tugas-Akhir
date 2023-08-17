@@ -25,7 +25,7 @@ h4 {
   max-width: 90%;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   display: flex;
   gap: 1.5rem;
 }
@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   padding: 25px;
 }
@@ -137,7 +137,7 @@ header {
   padding: 20px 0;
 }
 .card1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   padding: 25px;
   margin: 30px 0;
@@ -153,7 +153,7 @@ header {
     flex-flow: column nowrap;
   }
 
-  .container aside {
+  aside {
     align-self: center;
     width: 100%;
   }
@@ -167,10 +167,8 @@ header {
   nav ul {
     justify-content: center;
   }
-  
   .container {
     max-width: 100%;
-    padding: 0;
   }
 }
 
